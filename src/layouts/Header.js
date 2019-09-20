@@ -20,6 +20,7 @@ const Header = () => {
       <Switch>
         <Route exact path='/' render={() => <img src={RandomPicture()} alt="city" />} />
         <Route path='/products' render={() => <img src={RandomPicture()} alt="city" />} />
+        <Route path='/product/:id' render={() => <img src={RandomPicture()} alt="city" />} />
         <Route path='/contact' render={() => <img src={RandomPicture()} alt="city" />} />
         <Route path='/admin' render={() => <img src={RandomPicture()} alt="city" />} />
         <Route path='/login' render={() => <img src={RandomPicture()} alt="city" />} />
