@@ -1,9 +1,14 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-const Product = () => {
+const Product = ({ name }) => {
   return (
-    <div>Product</div>
+    <div>{name}</div>
   );
+}
+
+Product.propTypes = {
+  name: PropTypes.string.isRequired,
 }
 
 export default Product;

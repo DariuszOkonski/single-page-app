@@ -12,7 +12,8 @@ const Page = () => {
   return (
     <Switch>
       <Route exact path='/' component={HomePage} />
-      <Route path='/products' component={ProductPage} />
+      <Route path='/products' component={ProductListPage} />
+      <Route path='/product/:name' component={ProductPage} />
       <Route path='/contact' component={ContactPage} />
       <Route path='/admin' component={AdminPage} />
       <Route path='/login' component={LoginPage} />
