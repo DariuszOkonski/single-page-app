@@ -9,21 +9,24 @@ import Footer from './Footer';
 function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <div className="App">
-        <header>
+      <div className="app">
+        <header className="header">
           {<Header />}
         </header>
 
-        <main>
-          <aside>
+        <main className="main">
+
+          <aside className="aside">
             {<Navigation />}
           </aside>
+
           <section className="page">
             {<Page />}
           </section>
+
         </main>
 
-        <footer>
+        <footer className="footer">
           {<Footer />}
         </footer>
       </div>
