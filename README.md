@@ -1,4 +1,4 @@
-![Single Page Application](src/images/git-main.png)
+![Single Page Application](src/images/github-main.png)
 # Single Page Application
 
 Single Page Application it is create react app. It was created only for desktop views. App is using react-router-dom
