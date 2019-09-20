@@ -22,6 +22,7 @@ const Header = () => {
         <Route path='/products' render={() => <img src={RandomPicture()} alt="city" />} />
         <Route path='/contact' render={() => <img src={RandomPicture()} alt="city" />} />
         <Route path='/admin' render={() => <img src={RandomPicture()} alt="city" />} />
+        <Route path='/login' render={() => <img src={RandomPicture()} alt="city" />} />
         <Route render={() => <img src={error} alt="city" />} />
       </Switch>
     </>
